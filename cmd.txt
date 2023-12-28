@@ -1,0 +1,76 @@
+retroarch:
+retroarch -L D:\path\to\libretr\core.dll D:\path\to\game.rom
+
+snes9x:
+snes9x "D:\path\to\rom.smc"
+
+fceux
+fceux D:\path\to\rom.zip\nes\fds
+
+zsnes
+zsnes* -s D:\path\to\game.sfc
+
+mesen
+Mesen D:\path\to\rom.zip /region=Auto
+
+Dolphin 5.0-11132 or newer:
+Dolphin(set variable) -b -e "D:\Path\to\Game.iso"
+
+Citra
+cirta D:\path\to\rom.3ds
+
+MelonDS
+MelonDS (set Variable) D:\path\to\rom.nds
+
+PCSX2
+pcsx2 (set VAR) "D:\path\to\PS2.iso"
+
+Yuzu
+yuzu (set VAR) "D:\path\to\Switch.xci"
+
+Project64
+pj64(VAR) D:\path\to\N64.v64
+
+RPCS3
+rpcs3(VAR) "[ROMPATH]\[ROMFILE]"
+
+DraStic
+drastic “D:\path\to\NDS.nds”
+
+DuckStation
+duckstation (VAR) -- D:\path\to\PSX.iso
+
+Cemu
+cemu (Var) -g D:\path\to\WiiU.wud
+
+PPSSPP
+PPSSPPWindows.exe "D:\path\to\"
+
+Redream
+redream (VAR) C:\path\to\game
+
+ePSXe
+ePSXe (VAR) -loadbin "D:\path\to\PAX.iso/bin"
+
+FinalBurn Alpha
+fba <game> -w -a
+
+GBA:
+
+VBA-M
+vba-m (set variable) "D:\path\to\rom.gba"
+
+MAME:
+mame(setVAR) <system> -mouse -window
+
+VGBA
+vgba D:\path\to\rom.gba
+
+ares(multi-emulator[declared as standalone])
+ares --system <sys> D:\path\to\rom.rom
+
+NES:
+
+3dSen
+3dnes --r=D:\path\to\rom.nes
+
