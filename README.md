@@ -1,0 +1,2 @@
+# EmuCool
+Frontend for Emulators
