@@ -16,7 +16,8 @@
   "nativeAllowList": [
     "app.*",
     "os.*",
-    "debug.log"
+    "debug.log",
+    "updater.*"
   ],
   "globalVariables": {
     "TEST1": "Hello",
@@ -69,7 +70,7 @@
     "binaryName": "EmuCool",
     "resourcesPath": "/src/",
     "extensionsPath": "/ext/",
-    "clientLibrary": "/src/js/neutralino.js",
+    "clientLibrary": "./src/assets/neutralino.js",
     "binaryVersion": "5.5.0",
     "clientVersion": "5.5.0"
   }
