@@ -1,2 +1,3 @@
 # EmuCool
-Frontend for Emulators
+
+A web-based frontend for emulators.
