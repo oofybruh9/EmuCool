@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Material Icons Rounded";
+    src: url('../assets/icons.ttf') format('truetype'),
+    url("../assets/icons.woff2") format('woff2');
+    font-variation-settings: 'FILL' 1, 'wght' 700, 'GRAD' 200, 'opsz' 24;
+}
+
 #newVer{
     z-index: 1; /* set higher z-index value */
     position: relative; /* position must be set for z-index to work */
@@ -6,4 +13,8 @@
 #error {
     z-index: 2; /* set higher z-index value */
     position: relative; /* position must be set for z-index to work */
+}
+
+.mico {
+    font-family: "Material Icons Rounded";
 }

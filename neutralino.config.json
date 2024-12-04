@@ -17,7 +17,8 @@
     "app.*",
     "os.*",
     "debug.log",
-    "updater.*"
+    "updater.*", 
+    "filesystem.*"
   ],
   "globalVariables": {
     "TEST1": "Hello",
