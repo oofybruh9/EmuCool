@@ -5,16 +5,19 @@
     font-variation-settings: 'FILL' 1, 'wght' 700, 'GRAD' 200, 'opsz' 24;
 }
 
-#newVer{
-    z-index: 1; /* set higher z-index value */
-    position: relative; /* position must be set for z-index to work */
-}
-
-#error {
-    z-index: 2; /* set higher z-index value */
-    position: relative; /* position must be set for z-index to work */
-}
 
 .mico {
     font-family: "Material Icons Rounded";
 }
+
+.center {
+    z-index: 2;
+    margin: auto;
+    border-radius: 25%;
+    width: 60%;
+    height: 80%;
+    border: 3px solid #c7c7c7;
+    background-color: #6e6e6e;
+    padding: 10px;
+    position: relative;
+  }
