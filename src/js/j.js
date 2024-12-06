@@ -1,3 +1,4 @@
+function start(){
 const neu = window.Neutralino
 
 async function saveTS(json, place) {
@@ -11,4 +12,17 @@ async function loadFS(place) {
     return json2;
 }
 
+const dialog = document.getElementById('sampleDialog');
+const openButton = document.getElementById('openDialog');
+const closeButton = document.getElementById('closeDialog');
 
+// Event listener to open the dialog
+openButton.addEventListener('click', function() {
+  dialog.showModal();
+});
+
+// Event listener to close the dialog
+closeButton.addEventListener('click', function() {
+  dialog.close();
+});
+}

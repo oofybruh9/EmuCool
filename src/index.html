@@ -21,7 +21,7 @@
 
 
 
-<body>
+<body onload="start()">
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="https://www.whatismybrowser.com/guides/how-to-update-your-browser/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -32,12 +32,12 @@
     <div id="selection">
         Example
     </div>
-     
+     <button id="openDialog">Open</button>
     <footer>
         : Enter Menu/Launch Game :Exit EmuCool :Menu :Go Back :Options
     </footer>
     <script src="./assets/neutralino.js"></script>
     <script src="./js/j.js"></script>
 </body>
-<div id="ctrls" class="center"></div>
+<dialog id="sampleDialog">Hello World! <button id='closeDialog'>Close</button></dialog>
 </html>

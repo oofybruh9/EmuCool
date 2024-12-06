@@ -14,13 +14,17 @@ html, body {
 }
 
 .center {
-    z-index: 69;
-    position: relative;
-    margin: auto;
-    border-radius: 25%;
-    width: 60%;
-    height: 90%;
-    border: 3px solid #c7c7c7;
-    background-color: #6e6e6e;
-    padding: 10px;
-  }
+  z-index: 69;
+  position: relative;
+  margin: auto;
+  border-radius: 25%;
+  width: 60%;
+  height: 90%;
+  border: 3px solid #c7c7c7;
+  background-color: #6e6e6e;
+  padding: 10px;
+}
+
+dialog::backdrop {
+  backdrop-filter: blur(2px);
+}
