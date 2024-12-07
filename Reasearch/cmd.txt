@@ -16,8 +16,7 @@ Mesen D:\path\to\rom.zip /region=Auto
 Dolphin 5.0-11132 or newer:
 Dolphin(set variable) -b -e "D:\Path\to\Game.iso"
 
-Citra
-cirta D:\path\to\rom.3ds
+(citra has been deleted because of the lawsuit by Nintendo [fuck you nintendo])
 
 MelonDS
 MelonDS (set Variable) D:\path\to\rom.nds
@@ -25,8 +24,7 @@ MelonDS (set Variable) D:\path\to\rom.nds
 PCSX2
 pcsx2 (set VAR) "D:\path\to\PS2.iso"
 
-Yuzu
-yuzu (set VAR) "D:\path\to\Switch.xci"
+(same thing happened to yuzu [fuck you nintendo x2])
 
 Project64
 pj64(VAR) D:\path\to\N64.v64
