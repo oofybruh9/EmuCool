@@ -17,10 +17,17 @@
     <link rel="stylesheet" href="./css/loading-bar.css">
     <link rel="preload" href="./assets/icons.ttf" as="font" type="font/ttf" crossorigin>
     <link rel="preload" href="./assets/icons.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./assets/nunito.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="./assets/nunitoI.ttf" as="font" type="font/ttf" crossorigin>
     <!-- god this is so much stuff... -->
 </head>
 
-
+<!--
+Buttons:
+Style - Class
+macOS : macOButton
+Google: googleB
+-->
 
 <body onload="start()">
     <!--[if lt IE 7]>
@@ -33,13 +40,13 @@
     <div id="selection">
         Example
     </div>
-     <button id="openDialog">Open</button>
+     <button id="openDialog" class="macOButton">Open</button>
     <footer>
-        <img src="./assets/controller/key/Dark/enter.png">Enter Menu/Launch Game :Exit EmuCool :Menu :Go Back :Options
+        <img src="./assets/controller/key/Dark/enter.png">Enter Menu/Launch Game <img src="./assets/controller/key/Dark/f4.png">Exit EmuCool <img src="./assets/controller/key/Dark/shft.png">Menu <img src="./assets/controller/key/Dark/bkspc.png">Go Back <img src="./assets/controller/key/Dark/alt.png">Options
     </footer>
     <script src="./assets/neutralino.js"></script>
     <script src="./js/j.js"></script>
     <script src="./js/JSXinput.js"></script>
     
-<dialog id="sampleDialog">Hello World! <button id='closeDialog'>Close</button></dialog>
+<dialog id="sampleDialog">Hello World! <br><br> <button id='closeDialog' class="macOButton">Close</button></dialog>
 </html>
