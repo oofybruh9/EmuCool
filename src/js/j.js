@@ -26,4 +26,4 @@ closeButton.addEventListener('click', function() {
   dialog.close();
 });
 }
-
+settings = loadFS("../configs/settings.json")
