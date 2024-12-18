@@ -42,7 +42,7 @@
       "center": true,
       "fullScreen": false,
       "alwaysOnTop": false,
-      "icon": "/src/img/icon.png",
+      "icon": "./src/assets/icons/icon-512.pngdf",
       "enableInspector": false,
       "borderless": false,
       "maximize": false,
