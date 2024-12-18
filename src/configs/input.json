@@ -1,0 +1,11 @@
+{
+    "key" : "JS event.code",
+    "a" : "Enter",
+    "b" : "Backspace",
+    "left" : "ArrowLeft",
+    "right" : "ArrowRight",
+    "menu" : "AltLeft",
+    "exit" : "F4",
+    "options" : "ShiftLeft",
+    "remap" : "Digit0"
+}         

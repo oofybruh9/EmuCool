@@ -156,62 +156,21 @@ footer{
   box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
 }
 
-#selection{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.gallery-cell {
+  width: 66%;
   height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  counter-increment: gallery-cell;
 }
 
-.container {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-}
-
-.carousel-view {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
-  padding: 44px 0;
-  transition: all 0.25s ease-in;
-}
-
-.carousel-view .item-list {
-  padding: 50px 10px;
-  display: flex;
-  gap: 48px;
-  scroll-behavior: smooth;
-  transition: all 0.25s ease-in;
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-  overflow: auto;
-  scroll-snap-type: x mandatory;
-}
-
-
-/* Hide scrollbar for Chrome, Safari and Opera */
-.item-list::-webkit-scrollbar {
-  display: none;
-}
-
-.prev-btn {
-  background: none;
-  cursor: pointer;
-}
-
-.next-btn {
-  cursor: pointer;
-}
-
-.item {
-  scroll-snap-align: center;
-  min-width: 120px;
-  height: 120px;
-  background-color: deeppink;
-  border-radius:8px;
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
 }

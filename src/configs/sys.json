@@ -1,0 +1,7 @@
+{
+    "nes": {
+        "dir": "/home/oofybruh9/Roms/NES/",
+        "cmd": "fceux -f",
+        "ext": ".nes/.zip/.NES/.ZIP"
+    }
+}
