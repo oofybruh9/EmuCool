@@ -5,9 +5,9 @@
     "description": "This JSON file is for setting up the inputs used for EmuCool. It can be modified via the app or manually",
     "type": "object",
     "properties": {
-        "id": {
-            "description": "A unique identifier for an employee",
-            "type": "number"
+        "a": {
+            "description": "event.code for the 'A' button",
+            "type": "string"
         },
         "name": {
             "description": "Full name of the employee",
@@ -15,7 +15,7 @@
         },
         "age": {
             "description": "Age of the employee",
-            "type": "number"
+            "type": "string"
         },
         "hobbies": {
             "description": "Hobbies of the employee",
