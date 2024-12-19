@@ -26,4 +26,4 @@ closeButton.addEventListener('click', function() {
   dialog.close();
 });
 }
-settings = loadFS("../configs/settings.json")
+settings = loadFS("~/dev/EmuCool/configs/settings.json")
